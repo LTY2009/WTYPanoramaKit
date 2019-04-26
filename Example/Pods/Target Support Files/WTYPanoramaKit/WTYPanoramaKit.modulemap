@@ -1,0 +1,6 @@
+framework module WTYPanoramaKit {
+  umbrella header "WTYPanoramaKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

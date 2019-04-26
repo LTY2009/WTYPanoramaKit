@@ -1,34 +1,22 @@
-#
-# Be sure to run `pod lib lint WTYPanoramaKit.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'WTYPanoramaKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WTYPanoramaKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = '图片滚动效果.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 图片重力感应滚动组件.
                        DESC
 
-  s.homepage         = 'https://github.com/litengyue117@163.com/WTYPanoramaKit'
+  s.homepage         = 'https://github.com/LTY2009/WTYPanoramaKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'litengyue117@163.com' => 'litengyue117@163.com' }
-  s.source           = { :git => 'https://github.com/litengyue117@163.com/WTYPanoramaKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LTY2009/WTYPanoramaKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'WTYPanoramaKit/Classes/**/*'
   

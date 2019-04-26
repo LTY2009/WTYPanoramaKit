@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0517C5C18DD9222544164AC3DA3B7E68 /* Pods-WTYPanoramaKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2F40A541BF14BFF57CB3A934BA1038 /* Pods-WTYPanoramaKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC89A61BB8920343F120EC026B43E35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		35376560F5F5F17CFB65DF594FBF51B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4CCA07DC2D3EEAFBC32F70A4C157EE38 /* WTYPanoramaIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A797C1E015A9DACC76501816071F837 /* WTYPanoramaIndicator.swift */; };
+		4FDE3895771E123753CFBF7DF140E5FB /* WTYPanoramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E489BBC4155EC166D970E332C560C /* WTYPanoramaView.swift */; };
+		55056E495950AE7A7D121C51027C8A5F /* WTYPanoramaKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD77498DA6089EA86DE721F8FB7064A /* WTYPanoramaKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C8992754304DE2F53755B781DE8C4CD /* Pods-WTYPanoramaKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 566CCBCE8E4C993FFB1F175E601E6F9C /* Pods-WTYPanoramaKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B35A03793EB007EADAEB2C6F3F3C51A /* Pods-WTYPanoramaKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 418E6296FE69CFDE1E94D206509E143D /* Pods-WTYPanoramaKit_Tests-dummy.m */; };
+		A0F705247353E675CB97548291FD9978 /* Pods-WTYPanoramaKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2400E684E3F997FB44F9942F97D597F4 /* Pods-WTYPanoramaKit_Example-dummy.m */; };
+		C18707D1FFA1C7FD3C0E9A1BB6C98D6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D80004ED34AA340B647BBB397FDCB1C3 /* WTYPanoramaKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D912771BE90BB12C8C8D106FF675B1 /* WTYPanoramaKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D8B9B042E592D125B9D4ED96287186D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9976CAA7157B5A179705B9E2860D67E;
+			remoteInfo = WTYPanoramaKit;
+		};
+		FBEE8B7B95C86D5E63445E7CD4C4A0F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE63CC4EDE09C969E880DD334580CDE1;
+			remoteInfo = "Pods-WTYPanoramaKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5E489BBC4155EC166D970E332C560C /* WTYPanoramaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WTYPanoramaView.swift; path = WTYPanoramaKit/Classes/WTYPanoramaView.swift; sourceTree = "<group>"; };
+		15AB1DFA1108C27A394D432D712DF9CA /* Pods-WTYPanoramaKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTYPanoramaKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		16D912771BE90BB12C8C8D106FF675B1 /* WTYPanoramaKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTYPanoramaKit-dummy.m"; sourceTree = "<group>"; };
+		16EDC819D12C0A4DB84D3204CE933F4C /* Pods-WTYPanoramaKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WTYPanoramaKit_Example.modulemap"; sourceTree = "<group>"; };
+		17548D42A0D633117EF4F803EA6D8E3E /* WTYPanoramaKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WTYPanoramaKit-Info.plist"; sourceTree = "<group>"; };
+		183B19F8F4A703194B3FA66216942DFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2400E684E3F997FB44F9942F97D597F4 /* Pods-WTYPanoramaKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTYPanoramaKit_Example-dummy.m"; sourceTree = "<group>"; };
+		2A2F40A541BF14BFF57CB3A934BA1038 /* Pods-WTYPanoramaKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTYPanoramaKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		364709EA11D394A9ABCA370FF4201E53 /* Pods-WTYPanoramaKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTYPanoramaKit_Example-Info.plist"; sourceTree = "<group>"; };
+		3849D8E8E32896D2F67FC1774241A285 /* WTYPanoramaKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTYPanoramaKit-prefix.pch"; sourceTree = "<group>"; };
+		418E6296FE69CFDE1E94D206509E143D /* Pods-WTYPanoramaKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WTYPanoramaKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		48326B3B37409B887E68FF20CE96AADD /* WTYPanoramaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WTYPanoramaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD77498DA6089EA86DE721F8FB7064A /* WTYPanoramaKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTYPanoramaKit-umbrella.h"; sourceTree = "<group>"; };
+		566CCBCE8E4C993FFB1F175E601E6F9C /* Pods-WTYPanoramaKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WTYPanoramaKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		6498BB89C2E0966098545378F7E19460 /* Pods-WTYPanoramaKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WTYPanoramaKit_Tests.modulemap"; sourceTree = "<group>"; };
+		6A797C1E015A9DACC76501816071F837 /* WTYPanoramaIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WTYPanoramaIndicator.swift; path = WTYPanoramaKit/Classes/WTYPanoramaIndicator.swift; sourceTree = "<group>"; };
+		76196BF668B54E28168DCBFAEE98107F /* Pods-WTYPanoramaKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTYPanoramaKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8770670292B8C3C61D8C1E16D9F14EBF /* Pods_WTYPanoramaKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTYPanoramaKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FB480AF51BBAF99931D856DC9089D2 /* WTYPanoramaKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WTYPanoramaKit.modulemap; sourceTree = "<group>"; };
+		98247BC01CEEEF6D3AF47FB6D4753AB7 /* WTYPanoramaKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WTYPanoramaKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A1EAA324F69A5299559BC2CC2611AFC /* Pods-WTYPanoramaKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTYPanoramaKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A377358E8F2A6B04A577E38D5ACBBFC4 /* Pods-WTYPanoramaKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTYPanoramaKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D44474BAD8F4A63710D6AE06AC3A44 /* Pods-WTYPanoramaKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WTYPanoramaKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B79173067830A80115510D27074219E7 /* Pods-WTYPanoramaKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTYPanoramaKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		C329B3E4D88A90E7299E09332A0E1DD0 /* Pods_WTYPanoramaKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTYPanoramaKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC23E8CAFFB13661FAE26BD564C896B1 /* Pods-WTYPanoramaKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTYPanoramaKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D515E48DD053C93AFC584B83F007EC89 /* Pods-WTYPanoramaKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WTYPanoramaKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E94EB51B9D2CADC795B82ECBCE48677F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FC0FC441F52A32BC137BC61CA4BBC66C /* WTYPanoramaKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTYPanoramaKit.xcconfig; sourceTree = "<group>"; };
+		FEB2EF367CD12C4B94C9F843D0ECBF02 /* Pods-WTYPanoramaKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WTYPanoramaKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FF3E380A93B6737C4421DB084AF397E8 /* Pods-WTYPanoramaKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WTYPanoramaKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE1BBD52887F36E18D3BE71DA6EFECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35376560F5F5F17CFB65DF594FBF51B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B54587AC67CEFC6F05A72CBA4ED4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18707D1FFA1C7FD3C0E9A1BB6C98D6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC847712CD82F23F90FE1CD98BD18C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC89A61BB8920343F120EC026B43E35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B71492023B37D357ADC5BC06C5A8390 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90FB480AF51BBAF99931D856DC9089D2 /* WTYPanoramaKit.modulemap */,
+				FC0FC441F52A32BC137BC61CA4BBC66C /* WTYPanoramaKit.xcconfig */,
+				16D912771BE90BB12C8C8D106FF675B1 /* WTYPanoramaKit-dummy.m */,
+				17548D42A0D633117EF4F803EA6D8E3E /* WTYPanoramaKit-Info.plist */,
+				3849D8E8E32896D2F67FC1774241A285 /* WTYPanoramaKit-prefix.pch */,
+				4DD77498DA6089EA86DE721F8FB7064A /* WTYPanoramaKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WTYPanoramaKit";
+			sourceTree = "<group>";
+		};
+		1D3EA00EFD021632098C0CD93DE33CC3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E482B34C21C9D668CEC90B71CE8BD05F /* WTYPanoramaKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		20B1E30A1D1C55F300D3826A47F4C9E7 /* Pods-WTYPanoramaKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				16EDC819D12C0A4DB84D3204CE933F4C /* Pods-WTYPanoramaKit_Example.modulemap */,
+				76196BF668B54E28168DCBFAEE98107F /* Pods-WTYPanoramaKit_Example-acknowledgements.markdown */,
+				CC23E8CAFFB13661FAE26BD564C896B1 /* Pods-WTYPanoramaKit_Example-acknowledgements.plist */,
+				2400E684E3F997FB44F9942F97D597F4 /* Pods-WTYPanoramaKit_Example-dummy.m */,
+				A6D44474BAD8F4A63710D6AE06AC3A44 /* Pods-WTYPanoramaKit_Example-frameworks.sh */,
+				364709EA11D394A9ABCA370FF4201E53 /* Pods-WTYPanoramaKit_Example-Info.plist */,
+				566CCBCE8E4C993FFB1F175E601E6F9C /* Pods-WTYPanoramaKit_Example-umbrella.h */,
+				A377358E8F2A6B04A577E38D5ACBBFC4 /* Pods-WTYPanoramaKit_Example.debug.xcconfig */,
+				FEB2EF367CD12C4B94C9F843D0ECBF02 /* Pods-WTYPanoramaKit_Example.release.xcconfig */,
+			);
+			name = "Pods-WTYPanoramaKit_Example";
+			path = "Target Support Files/Pods-WTYPanoramaKit_Example";
+			sourceTree = "<group>";
+		};
+		936937FF32A5465766D43B508D04AD11 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20B1E30A1D1C55F300D3826A47F4C9E7 /* Pods-WTYPanoramaKit_Example */,
+				AE74768B8D3A64671A85B93DBC72D6BF /* Pods-WTYPanoramaKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AE74768B8D3A64671A85B93DBC72D6BF /* Pods-WTYPanoramaKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6498BB89C2E0966098545378F7E19460 /* Pods-WTYPanoramaKit_Tests.modulemap */,
+				D515E48DD053C93AFC584B83F007EC89 /* Pods-WTYPanoramaKit_Tests-acknowledgements.markdown */,
+				FF3E380A93B6737C4421DB084AF397E8 /* Pods-WTYPanoramaKit_Tests-acknowledgements.plist */,
+				418E6296FE69CFDE1E94D206509E143D /* Pods-WTYPanoramaKit_Tests-dummy.m */,
+				B79173067830A80115510D27074219E7 /* Pods-WTYPanoramaKit_Tests-Info.plist */,
+				2A2F40A541BF14BFF57CB3A934BA1038 /* Pods-WTYPanoramaKit_Tests-umbrella.h */,
+				9A1EAA324F69A5299559BC2CC2611AFC /* Pods-WTYPanoramaKit_Tests.debug.xcconfig */,
+				15AB1DFA1108C27A394D432D712DF9CA /* Pods-WTYPanoramaKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-WTYPanoramaKit_Tests";
+			path = "Target Support Files/Pods-WTYPanoramaKit_Tests";
+			sourceTree = "<group>";
+		};
+		BBB214C37BB8A79D20ABD03C0F2ED384 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E94EB51B9D2CADC795B82ECBCE48677F /* LICENSE */,
+				183B19F8F4A703194B3FA66216942DFD /* README.md */,
+				98247BC01CEEEF6D3AF47FB6D4753AB7 /* WTYPanoramaKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1D3EA00EFD021632098C0CD93DE33CC3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F35C50B018A9E194B204C8273D5CAC08 /* Products */,
+				936937FF32A5465766D43B508D04AD11 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E482B34C21C9D668CEC90B71CE8BD05F /* WTYPanoramaKit */ = {
+			isa = PBXGroup;
+			children = (
+				6A797C1E015A9DACC76501816071F837 /* WTYPanoramaIndicator.swift */,
+				0B5E489BBC4155EC166D970E332C560C /* WTYPanoramaView.swift */,
+				BBB214C37BB8A79D20ABD03C0F2ED384 /* Pod */,
+				1B71492023B37D357ADC5BC06C5A8390 /* Support Files */,
+			);
+			name = WTYPanoramaKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F35C50B018A9E194B204C8273D5CAC08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C329B3E4D88A90E7299E09332A0E1DD0 /* Pods_WTYPanoramaKit_Example.framework */,
+				8770670292B8C3C61D8C1E16D9F14EBF /* Pods_WTYPanoramaKit_Tests.framework */,
+				48326B3B37409B887E68FF20CE96AADD /* WTYPanoramaKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15FD16D9D5DCA3D24E5D3A73DA0987D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0517C5C18DD9222544164AC3DA3B7E68 /* Pods-WTYPanoramaKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258B61C33B3DB61217BFCF004CFC4417 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55056E495950AE7A7D121C51027C8A5F /* WTYPanoramaKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3414F954A326C1F6407F58DA587B5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8992754304DE2F53755B781DE8C4CD /* Pods-WTYPanoramaKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7AB77A6B9CBB1E60D55140A49D3F84CE /* Pods-WTYPanoramaKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C26E62AA7C1237634525FB1077CF49A /* Build configuration list for PBXNativeTarget "Pods-WTYPanoramaKit_Tests" */;
+			buildPhases = (
+				15FD16D9D5DCA3D24E5D3A73DA0987D7 /* Headers */,
+				838D14FEDC2FC2FCF80673C85ADF5548 /* Sources */,
+				74B54587AC67CEFC6F05A72CBA4ED4F7 /* Frameworks */,
+				E363A36AFB2CF4252F52EFC00A37148F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01B81DF953911E865A2A020F7E99259F /* PBXTargetDependency */,
+			);
+			name = "Pods-WTYPanoramaKit_Tests";
+			productName = "Pods-WTYPanoramaKit_Tests";
+			productReference = 8770670292B8C3C61D8C1E16D9F14EBF /* Pods_WTYPanoramaKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9976CAA7157B5A179705B9E2860D67E /* WTYPanoramaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4FB96DAE82088D18946FDC8B15A989 /* Build configuration list for PBXNativeTarget "WTYPanoramaKit" */;
+			buildPhases = (
+				258B61C33B3DB61217BFCF004CFC4417 /* Headers */,
+				5BF8A49DD261B5866BAD7AF598D59B1A /* Sources */,
+				DAC847712CD82F23F90FE1CD98BD18C0 /* Frameworks */,
+				B42FC2A3377421472BC27B5C090E37A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTYPanoramaKit;
+			productName = WTYPanoramaKit;
+			productReference = 48326B3B37409B887E68FF20CE96AADD /* WTYPanoramaKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE63CC4EDE09C969E880DD334580CDE1 /* Pods-WTYPanoramaKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D08823CB1B83BA45C7165A3B4B74D99 /* Build configuration list for PBXNativeTarget "Pods-WTYPanoramaKit_Example" */;
+			buildPhases = (
+				3D3414F954A326C1F6407F58DA587B5F /* Headers */,
+				D80F8DB4DAC0F4ECE4DF4E475DDC7CE3 /* Sources */,
+				1AE1BBD52887F36E18D3BE71DA6EFECA /* Frameworks */,
+				951464080DBB68B60B1187B85C3D3C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43892F9303C723A7E146D000378217CF /* PBXTargetDependency */,
+			);
+			name = "Pods-WTYPanoramaKit_Example";
+			productName = "Pods-WTYPanoramaKit_Example";
+			productReference = C329B3E4D88A90E7299E09332A0E1DD0 /* Pods_WTYPanoramaKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F35C50B018A9E194B204C8273D5CAC08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE63CC4EDE09C969E880DD334580CDE1 /* Pods-WTYPanoramaKit_Example */,
+				7AB77A6B9CBB1E60D55140A49D3F84CE /* Pods-WTYPanoramaKit_Tests */,
+				B9976CAA7157B5A179705B9E2860D67E /* WTYPanoramaKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		951464080DBB68B60B1187B85C3D3C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42FC2A3377421472BC27B5C090E37A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E363A36AFB2CF4252F52EFC00A37148F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BF8A49DD261B5866BAD7AF598D59B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCA07DC2D3EEAFBC32F70A4C157EE38 /* WTYPanoramaIndicator.swift in Sources */,
+				D80004ED34AA340B647BBB397FDCB1C3 /* WTYPanoramaKit-dummy.m in Sources */,
+				4FDE3895771E123753CFBF7DF140E5FB /* WTYPanoramaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838D14FEDC2FC2FCF80673C85ADF5548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B35A03793EB007EADAEB2C6F3F3C51A /* Pods-WTYPanoramaKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80F8DB4DAC0F4ECE4DF4E475DDC7CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F705247353E675CB97548291FD9978 /* Pods-WTYPanoramaKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01B81DF953911E865A2A020F7E99259F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WTYPanoramaKit_Example";
+			target = FE63CC4EDE09C969E880DD334580CDE1 /* Pods-WTYPanoramaKit_Example */;
+			targetProxy = FBEE8B7B95C86D5E63445E7CD4C4A0F1 /* PBXContainerItemProxy */;
+		};
+		43892F9303C723A7E146D000378217CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WTYPanoramaKit;
+			target = B9976CAA7157B5A179705B9E2860D67E /* WTYPanoramaKit */;
+			targetProxy = 0D8B9B042E592D125B9D4ED96287186D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03BE666BD8194B627DE37BC4497FD2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1EAA324F69A5299559BC2CC2611AFC /* Pods-WTYPanoramaKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTYPanoramaKit_Tests/Pods-WTYPanoramaKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WTYPanoramaKit_Tests/Pods-WTYPanoramaKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63C74F47437FC99402C1035D22A619F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB2EF367CD12C4B94C9F843D0ECBF02 /* Pods-WTYPanoramaKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTYPanoramaKit_Example/Pods-WTYPanoramaKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WTYPanoramaKit_Example/Pods-WTYPanoramaKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		773804CC556123D1B76BAD82A3F3DD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A377358E8F2A6B04A577E38D5ACBBFC4 /* Pods-WTYPanoramaKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTYPanoramaKit_Example/Pods-WTYPanoramaKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WTYPanoramaKit_Example/Pods-WTYPanoramaKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C468ED3493EBBA91E1E27D15BDA71AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0FC441F52A32BC137BC61CA4BBC66C /* WTYPanoramaKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WTYPanoramaKit/WTYPanoramaKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WTYPanoramaKit/WTYPanoramaKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WTYPanoramaKit/WTYPanoramaKit.modulemap";
+				PRODUCT_MODULE_NAME = WTYPanoramaKit;
+				PRODUCT_NAME = WTYPanoramaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD65904AD56610E08213946516ED10F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15AB1DFA1108C27A394D432D712DF9CA /* Pods-WTYPanoramaKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WTYPanoramaKit_Tests/Pods-WTYPanoramaKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WTYPanoramaKit_Tests/Pods-WTYPanoramaKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F88FDEE6AF5CE1BEB42D8AE764A539F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0FC441F52A32BC137BC61CA4BBC66C /* WTYPanoramaKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WTYPanoramaKit/WTYPanoramaKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WTYPanoramaKit/WTYPanoramaKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WTYPanoramaKit/WTYPanoramaKit.modulemap";
+				PRODUCT_MODULE_NAME = WTYPanoramaKit;
+				PRODUCT_NAME = WTYPanoramaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D08823CB1B83BA45C7165A3B4B74D99 /* Build configuration list for PBXNativeTarget "Pods-WTYPanoramaKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773804CC556123D1B76BAD82A3F3DD4D /* Debug */,
+				63C74F47437FC99402C1035D22A619F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C26E62AA7C1237634525FB1077CF49A /* Build configuration list for PBXNativeTarget "Pods-WTYPanoramaKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BE666BD8194B627DE37BC4497FD2A1 /* Debug */,
+				CD65904AD56610E08213946516ED10F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4FB96DAE82088D18946FDC8B15A989 /* Build configuration list for PBXNativeTarget "WTYPanoramaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88FDEE6AF5CE1BEB42D8AE764A539F6 /* Debug */,
+				C468ED3493EBBA91E1E27D15BDA71AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

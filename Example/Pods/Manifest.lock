@@ -1,0 +1,16 @@
+PODS:
+  - WTYPanoramaKit (0.1.0)
+
+DEPENDENCIES:
+  - WTYPanoramaKit (from `../`)
+
+EXTERNAL SOURCES:
+  WTYPanoramaKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WTYPanoramaKit: 79b15fe9c72b512d6d8e0a9e4b10637f399a46ff
+
+PODFILE CHECKSUM: 88921d405a33a0a86350151ef544dd29dce81566
+
+COCOAPODS: 1.6.1
