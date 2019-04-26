@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WTYPanoramaKit_Example' do
+  pod 'WTYPanoramaKit', :path => '../'
+
+  target 'WTYPanoramaKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
